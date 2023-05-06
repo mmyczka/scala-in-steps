@@ -13,15 +13,15 @@ Let's embark on this exciting journey together and conquer the world of Scala pr
 
 ## Steps
 
-| Step | Name                                                                      |
-|---|:--------------------------------------------------------------------------|
-| 1 | [Introduction to Scala: History, Advantages, and Use Cases](./README.md)  |
-| 2 | [Setting up the Scala Development Environment and IDEs](./README.md)      |
-| 3 | [Scala Basics: Test, Variables, Data Types, and Expressions](./README.md) |
-| 4 | [Control Structures in Scala: Conditionals and Loops](./README.md)        |
-| 5 | [Functions in Scala: Defining and Calling Functions](./README.md)         |
-| 6 | [Higher-Order Functions and Anonymous Functions](./README.md)             |
-| 7 | [Pattern Matching and Case Classes](./README.md)                          |
-| 8 | [Collections in Scala: Lists, Arrays, and Sets](./README.md)              |
-| 9 | [Maps and Tuples in Scala](./README.md)                                   | 
-| 10| [Working with Immutable and Mutable Collections](./README.md)             |
+| Step | Name                                                                                          |
+|---|:----------------------------------------------------------------------------------------------|
+| 1 | [Introduction to Scala: History, Advantages, and Use Cases](./step_01_introduction/readme.md) |
+| 2 | [Setting up the Scala Development Environment and IDEs](./README.md)                          |
+| 3 | [Scala Basics: Test, Variables, Data Types, and Expressions](./README.md)                     |
+| 4 | [Control Structures in Scala: Conditionals and Loops](./README.md)                            |
+| 5 | [Functions in Scala: Defining and Calling Functions](./README.md)                             |
+| 6 | [Higher-Order Functions and Anonymous Functions](./README.md)                                 |
+| 7 | [Pattern Matching and Case Classes](./README.md)                                              |
+| 8 | [Collections in Scala: Lists, Arrays, and Sets](./README.md)                                  |
+| 9 | [Maps and Tuples in Scala](./README.md)                                                       | 
+| 10| [Working with Immutable and Mutable Collections](./README.md)                                 |
