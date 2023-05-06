@@ -16,7 +16,7 @@ Let's embark on this exciting journey together and conquer the world of Scala pr
 | Step | Name                                                                                |
 |---|:------------------------------------------------------------------------------------|
 | 1 | [Introduction to Scala: History, Advantages, and Use Cases](./step_01_introduction) |
-| 2 | [Setting up the Scala Development Environment and IDEs](./README.md)                |
+| 2 | [Setting up the Scala Development Environment and IDEs](./step_02_environment)                         |
 | 3 | [Scala Basics: Test, Variables, Data Types, and Expressions](./README.md)           |
 | 4 | [Control Structures in Scala: Conditionals and Loops](./README.md)                  |
 | 5 | [Functions in Scala: Defining and Calling Functions](./README.md)                   |
