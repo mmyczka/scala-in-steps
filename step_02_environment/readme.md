@@ -3,7 +3,7 @@
 Welcome to step 2 of "Scala in Steps"! Today, we will focus on setting up your Scala development environment and getting familiar with some popular Integrated Development Environments (IDEs) that support Scala programming. A properly configured environment and a powerful IDE are crucial for a smooth and productive learning experience.
 ### Installing Java Development Kit (JDK)
 Since Scala runs on the Java Virtual Machine (JVM), you need a compatible JDK installed on your system. Follow these steps to install the JDK:
-1. Visit the official Oracle JDK download page: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+1. Visit the official Oracle JDK download page: https://www.oracle.com/java/technologies/downloads/
 2. Download the appropriate JDK installer for your operating system (Windows, macOS, or Linux).
 3. Run the installer and follow the on-screen instructions to complete the installation.
 4. Set the JAVA_HOME environment variable to point to the JDK installation directory.
@@ -14,7 +14,7 @@ Now that you have the JDK installed, it's time to install Scala. Follow these st
 3. Run the installer and follow the on-screen instructions to complete the installation.
 4. Verify the installation by opening a terminal or command prompt and typing scala -version. You should see the installed Scala version displayed.
 ### Installing a Scala Build Tool
-A build tool is essential for managing dependencies and automating the build process. There are several build tools available for Scala, but two popular options are sbt (Simple Build Tool) and Mill. We recommend installing sbt for this challenge. Follow these steps to install sbt:
+A build tool is essential for managing dependencies and automating the build process. There are several build tools available for Scala, but we recommend installing sbt for this challenge. Follow these steps to install sbt:
 1. Visit the official sbt download page: https://www.scala-sbt.org/download.html
 2. Download the appropriate sbt installer for your operating system (Windows, macOS, or Linux).
 3. Run the installer and follow the on-screen instructions to complete the installation.
