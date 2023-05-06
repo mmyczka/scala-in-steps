@@ -9,3 +9,19 @@ A key focus of this challenge is on tests. I will be emphasizing the importance 
 Throughout this challenge, I will be explaining various Scala concepts and techniques in a way that I find helpful for my own learning. My hope is that you, too, will benefit from these explanations, examples, and exercises, and become proficient in Scala one step at a time.
 
 Let's embark on this exciting journey together and conquer the world of Scala programming!
+
+
+## Steps
+
+| Step | Name                                                                      |
+|---|:--------------------------------------------------------------------------|
+| 1 | [Introduction to Scala: History, Advantages, and Use Cases](./README.md)  |
+| 2 | [Setting up the Scala Development Environment and IDEs](./README.md)      |
+| 3 | [Scala Basics: Test, Variables, Data Types, and Expressions](./README.md) |
+| 4 | [Control Structures in Scala: Conditionals and Loops](./README.md)        |
+| 5 | [Functions in Scala: Defining and Calling Functions](./README.md)         |
+| 6 | [Higher-Order Functions and Anonymous Functions](./README.md)             |
+| 7 | [Pattern Matching and Case Classes](./README.md)                          |
+| 8 | [Collections in Scala: Lists, Arrays, and Sets](./README.md)              |
+| 9 | [Maps and Tuples in Scala](./README.md)                                   | 
+| 10| [Working with Immutable and Mutable Collections](./README.md)             |
