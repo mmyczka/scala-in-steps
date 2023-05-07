@@ -87,7 +87,52 @@ Scala has several basic data types, including Int, Double, Boolean, Char, and St
 }
 ```
 
+### Expressions
+Scala supports various arithmetic, relational, and logical expressions. Let's write a test to verify the correctness of these expressions:
+```scala
+"expressions" should "evaluate correctly" in {
+    val sum = 10 + 5
+    val product = 10 * 5
+    val quotient = 10 / 5
+    val difference = 10 - 5 
+    val isGreater = 10 > 5 
+    val isLesser = 10 < 5 
+    val isEqual = 10 == 10 
+    val isNotEqual = 10 != 5 
+    val andCondition = true && false 
+    val orCondition = true || false
+    
+    sum shouldEqual 15 
+    product shouldEqual 50 
+    quotient shouldEqual 2 
+    difference shouldEqual 5 
+    isGreater shouldBe true 
+    isLesser shouldBe false 
+    isEqual shouldBe true 
+    isNotEqual shouldBe true 
+    andCondition shouldBe false 
+    orCondition shouldBe true 
+}
+```
 
+By using ScalaTest, we have written tests for basic Scala concepts such as variables, data types, and expressions. Stay tuned for Step 4, where we will dive deeper into Scala's control structures, including conditionals and loops.
+
+## Exercises
+Evaluate the following expressions and store the results in appropriately named variables. Write tests to ensure that the results of these expressions are correct:
+
+```scala 
+1. 5 + 10
+2. 8 - 20.
+3. 6 * 7
+4. 35 / 5
+5. "Hello," + " World!"
+6. 15 <= 15
+7. 15 >= 20
+8. 15 != 20
+9. true && false
+10. true || false
+11. !true
+```
 
 
 
