@@ -28,6 +28,8 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.9" % Test
 
 2. Refresh your project so that the dependency is downloaded and configured.
 
+For more detailed information about ScalaTest, you can go to https://www.scalatest.org/, where you will find many resources about the framework.
+
 ### Writing Your First Test
 Now that we have ScalaTest set up, let's write a simple test to demonstrate how it works. We will start with a test that checks the addition of two integers.
 1. Create a new Scala class file named BasicOperationsTest in your test folder (usually located at src/test/scala).
@@ -46,3 +48,46 @@ class BasicOperationsTest extends AnyFlatSpec with Matchers {
 }
 ```
 4. Run the test using your IDE's built-in test runner. The test should pass.
+
+Now, let's explore Scala basics.
+
+### Variables
+Scala has two types of variables: immutable (val) and mutable (var). Immutable variables cannot be changed once they are assigned a value, while mutable variables can be reassigned.
+First, let's write a test for immutable variables:
+```scala
+"immutable variable" should "not be reassigned" in{
+    val x = 10
+    //x = 15 If you uncomment this line it should throw a compile-time error
+    x should not equal 15
+}
+```
+Next, write a test for mutable variables:
+```scala 
+"mutable variable" should "be reassigned" in {
+    var y = 10
+    y = 15
+    y shouldEqual 15
+}
+```
+#### Data Types
+Scala has several basic data types, including Int, Double, Boolean, Char, and String. Let's write a test to demonstrate the correct assignment of these data types:
+```scala 
+"data types" should "be correctly assigned" in {
+    val intValue: Int = 42
+    val doubleValue: Double = 3.14
+    val booleanValue: Boolean = true
+    val charValue: Char = 'A'
+    val stringValue: String = "Hello, Scala!"
+
+    intValue shouldEqual 42
+    doubleValue shouldEqual 3.14
+    booleanValue shouldBe true
+    charValue shouldEqual 'A'
+    stringValue shouldEqual "Hello, Scala!"
+}
+```
+
+
+
+
+
