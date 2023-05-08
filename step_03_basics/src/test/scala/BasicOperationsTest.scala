@@ -1,6 +1,5 @@
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
-import org.scalatest.Ignore
 
 class BasicOperationsTest extends AnyFlatSpec with Matchers {
     "addition 2 and 3" should "be 5" in {
