@@ -49,4 +49,34 @@ For comprehensions in Scala provide a more concise and readable way to work with
     evens shouldEqual List(2, 4, 6, 8)
 }
 ```
-Now that we have explored various control structures in Scala, you should have a better understanding of how to write and test conditional statements and loops. 
+Now that we have explored various control structures in Scala, you should have a better understanding of how to write and test conditional statements and loops.
+
+## Exercises
+
+1. Maximum of Two Numbers 
+
+    Write a test and an if-else statement that takes two integers as input and returns the maximum of the two. For example, if the input is (5, 8), the output should be 8.
+
+
+2. Grade Calculator
+
+    Write a test and a match expression that takes an integer score as input and returns a letter grade based on the following scale:
+   * A: 90 - 100
+   * B: 80 - 89
+   * C: 70 - 79
+   * D: 60 - 69
+   * F: 0 - 59
+
+   If the input is outside the range of 0-100, return "Invalid score."3. 
+
+
+3. Countdown
+
+    Write a test and a while loop that takes an integer as input and sums a countdown from that number to 0.
+
+
+4. Filtering Odd Numbers
+
+    Write a test and a for comprehension that takes a list of integers as input and returns a new list containing only the odd numbers from the original list.
+
+For each exercise, remember to write tests.
