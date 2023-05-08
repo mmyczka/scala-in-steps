@@ -19,7 +19,7 @@ Let's embark on this exciting journey together and conquer the world of Scala pr
 | 2 | [Setting up the Scala Development Environment and IDEs](./step_02_environment)      |
 | 3 | [Scala Basics: Test, Variables, Data Types, and Expressions](./step_03_basics)      |
 | 4 | [Control Structures in Scala: Conditionals and Loops](./step_04_control_structures) |
-| 5 | [Functions in Scala: Defining and Calling Functions](./README.md)                   |
+| 5 | [Functions in Scala: Defining and Calling Functions](./step_05_functions)                           |
 | 6 | [Higher-Order Functions and Anonymous Functions](./README.md)                       |
 | 7 | [Pattern Matching and Case Classes](./README.md)                                    |
 | 8 | [Collections in Scala: Lists, Arrays, and Sets](./README.md)                        |
