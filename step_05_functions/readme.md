@@ -88,3 +88,22 @@ In this example, we use the @tailrec annotation to ensure that the loop function
 Rerun the tests to ensure that the tail-recursive function passes the test.
 
 By incorporating tail recursion into your recursive functions, you can improve the performance and reliability of your code.
+
+
+## Exercises
+
+1. Write a function named multiply that takes two integers and returns their product.
+
+
+2. Write a function named distance that calculates the distance between two points in a two-dimensional plane, given their coordinates as (x1, y1) and (x2, y2). Use the following formula for the distance calculation: sqrt((x2 - x1)^2 + (y2 - y1)^2).
+
+
+3. Write a tail-recursive function named fibonacci that calculates the nth Fibonacci number, where fibonacci(0) = 0, fibonacci(1) = 1, and fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2) for n > 1.
+
+
+4. Create a class named BankAccount with methods deposit, withdraw, and balance. Write tests for these methods to ensure that depositing and withdrawing money works correctly, and that the balance is updated accordingly.
+
+
+5. Write a function named volume that calculates the volume of a cylinder, given its radius and height. Use the following formula for the volume calculation: π * radius^2 * height. 
+
+Complete these exercises to practice writing tests and implementing functions and methods 
