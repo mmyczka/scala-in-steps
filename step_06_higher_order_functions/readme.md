@@ -20,19 +20,31 @@ class HigherOrderFunctionTest extends AnyFlatSpec with Matchers {
 Now, run the tests to see them fail initially, as we haven't yet implemented the applyFunction method.
 ### Implement Higher-Order Function
 In src/main/scala/MathFunctions.scala, add the following higher-order function:
-'''scala
+```scala
 def applyFunction(f: Int => Int, x: Int): Int = f(x)
-'''
+```
 ### Write Tests for Anonymous Functions
 Next, let's write tests for an anonymous function that adds a given number to another number. Add the following test in HigherOrderFunctionTest.scala:
-'''scala
+```scala
 "A function" should "correctly add a given number to another number" in {
 val addFive = (x: Int) => x + 5
 val result = MathFunctions.applyFunction(addFive, 10)
 
 result shouldEqual 15
 }
-'''
+```
 Step 4: Rerun Tests
 Finally, rerun the tests. This time, they should pass, as we've correctly implemented the higher-order function and anonymous function.
 By following the TDD approach, you can ensure that your higher-order functions and anonymous functions are working as expected, making your code more robust and reliable.
+
+## Exercises
+1. Write a function named createMultiplier that takes an integer and returns a function that multiplies its input by the given integer.
+
+
+2. Write an anonymous function that calculates the square of an integer. Use the applyFunction method from the MathFunctions object to apply this function to an integer.
+
+
+3. Write a function named createAdder that takes an integer and returns a function that adds the given integer to its input.
+
+
+Complete these exercises to practice writing tests and implementing higher-order functions and anonymous functions. This will help reinforce the concepts you've learned in Step 6 and improve your proficiency in Scala programming.
