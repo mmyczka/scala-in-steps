@@ -33,7 +33,7 @@ val result = MathFunctions.applyFunction(addFive, 10)
 result shouldEqual 15
 }
 ```
-Step 4: Rerun Tests
+### Rerun Tests
 Finally, rerun the tests. This time, they should pass, as we've correctly implemented the higher-order function and anonymous function.
 By following the TDD approach, you can ensure that your higher-order functions and anonymous functions are working as expected, making your code more robust and reliable.
 
