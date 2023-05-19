@@ -21,7 +21,7 @@ Let's embark on this exciting journey together and conquer the world of Scala pr
 | 4 | [Control Structures in Scala: Conditionals and Loops](./step_04_control_structures) |
 | 5 | [Functions in Scala: Defining and Calling Functions](./step_05_functions)           |
 | 6 | [Higher-Order Functions and Anonymous Functions](./step_06_higher_order_functions)  |
-| 7 | [Pattern Matching and Case Classes](./step_07_case_class)                                            |
-| 8 | [Collections in Scala: Lists, Arrays, and Sets](./README.md)                        |
+| 7 | [Pattern Matching and Case Classes](./step_07_case_class)                           |
+| 8 | [Collections in Scala: Lists, Arrays, and Sets](./step_08_collections)                                |
 | 9 | [Maps and Tuples in Scala](./README.md)                                             | 
 | 10| [Working with Immutable and Mutable Collections](./README.md)                       |
