@@ -31,7 +31,7 @@ Now, run the tests to see them fail initially, as we haven't yet implemented the
 ### Implement Person Case Class
 In src/main/scala, create a new file named Person.scala and add the following case class definition:
 ```scala
-case class Person(name: String, age: Int)
+final case class Person(name: String, age: Int)
 ```
 ### Pattern Matching
 
